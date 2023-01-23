@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "819045808623",
+    "firebase_url": "https://esme-eat-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "esme-eat",
+    "storage_bucket": "esme-eat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819045808623:android:2992c740a82d4b850d5e1a",
+        "android_client_info": {
+          "package_name": "com.example.esmebookingrestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819045808623-a1ndmqdiiuc1k8glqig598pna5h0q8ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyWVb5YiVxbXgU7j4JW7VIH6Abkx8KwdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819045808623-a1ndmqdiiuc1k8glqig598pna5h0q8ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819045808623:android:4aa273a1fc60b0ef0d5e1a",
+        "android_client_info": {
+          "package_name": "fr.delcey.esmeeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819045808623-a1ndmqdiiuc1k8glqig598pna5h0q8ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyWVb5YiVxbXgU7j4JW7VIH6Abkx8KwdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819045808623-a1ndmqdiiuc1k8glqig598pna5h0q8ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

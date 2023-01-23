@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img3"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Bienvenue sur ESME'eat !"
+        android:textColor="@color/cyanbis"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nbre_personne_presente"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Etudiants présents"
+        android:textColor="@color/cyanbis"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nbre_reservation"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="right"
+        android:text="1"
+        android:textColor="@color/cyanbis"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nbre_place"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="left"
+        android:text="/100"
+        android:textColor="@color/cyanbis"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bouton_reservation"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="598dp"
+        android:backgroundTint="@color/cyan"
+        android:text="Reverser sa place" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bouton_scan"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="598dp"
+        android:backgroundTint="@color/cyan"
+        android:scrollbarSize="10dp"
+        android:text="Scanner le QR" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo_esme"
+
+            />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+
+        android:src="@drawable/logoesmeeat" />
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/logout" />
+
+
+</RelativeLayout>
